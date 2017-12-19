@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31A71591FE910F7001F1E76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A71581FE910F7001F1E76 /* AppDelegate.m */; };
+		F31A715C1FE910F7001F1E76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A715B1FE910F7001F1E76 /* ViewController.m */; };
+		F31A715E1FE910F7001F1E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31A715D1FE910F7001F1E76 /* Assets.xcassets */; };
+		F31A71611FE910F7001F1E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31A715F1FE910F7001F1E76 /* Main.storyboard */; };
+		F31A71641FE910F7001F1E76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A71631FE910F7001F1E76 /* main.m */; };
+		F31A716F1FE910F7001F1E76 /* AutoImportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A716E1FE910F7001F1E76 /* AutoImportTests.m */; };
+		F31A717A1FE910F8001F1E76 /* AutoImportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A71791FE910F8001F1E76 /* AutoImportUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F31A716B1FE910F7001F1E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31A714C1FE910F7001F1E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31A71531FE910F7001F1E76;
+			remoteInfo = AutoImport;
+		};
+		F31A71761FE910F8001F1E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31A714C1FE910F7001F1E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31A71531FE910F7001F1E76;
+			remoteInfo = AutoImport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F31A71541FE910F7001F1E76 /* AutoImport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoImport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31A71571FE910F7001F1E76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F31A71581FE910F7001F1E76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F31A715A1FE910F7001F1E76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F31A715B1FE910F7001F1E76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F31A715D1FE910F7001F1E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31A71601FE910F7001F1E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F31A71621FE910F7001F1E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31A71631FE910F7001F1E76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F31A71651FE910F7001F1E76 /* AutoImport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoImport.entitlements; sourceTree = "<group>"; };
+		F31A716A1FE910F7001F1E76 /* AutoImportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoImportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31A716E1FE910F7001F1E76 /* AutoImportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoImportTests.m; sourceTree = "<group>"; };
+		F31A71701FE910F7001F1E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31A71751FE910F8001F1E76 /* AutoImportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoImportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31A71791FE910F8001F1E76 /* AutoImportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoImportUITests.m; sourceTree = "<group>"; };
+		F31A717B1FE910F8001F1E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31A71511FE910F7001F1E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A71671FE910F7001F1E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A71721FE910F8001F1E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31A714B1FE910F7001F1E76 = {
+			isa = PBXGroup;
+			children = (
+				F31A71561FE910F7001F1E76 /* AutoImport */,
+				F31A716D1FE910F7001F1E76 /* AutoImportTests */,
+				F31A71781FE910F8001F1E76 /* AutoImportUITests */,
+				F31A71551FE910F7001F1E76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F31A71551FE910F7001F1E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31A71541FE910F7001F1E76 /* AutoImport.app */,
+				F31A716A1FE910F7001F1E76 /* AutoImportTests.xctest */,
+				F31A71751FE910F8001F1E76 /* AutoImportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F31A71561FE910F7001F1E76 /* AutoImport */ = {
+			isa = PBXGroup;
+			children = (
+				F31A71571FE910F7001F1E76 /* AppDelegate.h */,
+				F31A71581FE910F7001F1E76 /* AppDelegate.m */,
+				F31A715A1FE910F7001F1E76 /* ViewController.h */,
+				F31A715B1FE910F7001F1E76 /* ViewController.m */,
+				F31A715D1FE910F7001F1E76 /* Assets.xcassets */,
+				F31A715F1FE910F7001F1E76 /* Main.storyboard */,
+				F31A71621FE910F7001F1E76 /* Info.plist */,
+				F31A71631FE910F7001F1E76 /* main.m */,
+				F31A71651FE910F7001F1E76 /* AutoImport.entitlements */,
+			);
+			path = AutoImport;
+			sourceTree = "<group>";
+		};
+		F31A716D1FE910F7001F1E76 /* AutoImportTests */ = {
+			isa = PBXGroup;
+			children = (
+				F31A716E1FE910F7001F1E76 /* AutoImportTests.m */,
+				F31A71701FE910F7001F1E76 /* Info.plist */,
+			);
+			path = AutoImportTests;
+			sourceTree = "<group>";
+		};
+		F31A71781FE910F8001F1E76 /* AutoImportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F31A71791FE910F8001F1E76 /* AutoImportUITests.m */,
+				F31A717B1FE910F8001F1E76 /* Info.plist */,
+			);
+			path = AutoImportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F31A71531FE910F7001F1E76 /* AutoImport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31A717E1FE910F8001F1E76 /* Build configuration list for PBXNativeTarget "AutoImport" */;
+			buildPhases = (
+				F31A71501FE910F7001F1E76 /* Sources */,
+				F31A71511FE910F7001F1E76 /* Frameworks */,
+				F31A71521FE910F7001F1E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoImport;
+			productName = AutoImport;
+			productReference = F31A71541FE910F7001F1E76 /* AutoImport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F31A71691FE910F7001F1E76 /* AutoImportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31A71811FE910F8001F1E76 /* Build configuration list for PBXNativeTarget "AutoImportTests" */;
+			buildPhases = (
+				F31A71661FE910F7001F1E76 /* Sources */,
+				F31A71671FE910F7001F1E76 /* Frameworks */,
+				F31A71681FE910F7001F1E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31A716C1FE910F7001F1E76 /* PBXTargetDependency */,
+			);
+			name = AutoImportTests;
+			productName = AutoImportTests;
+			productReference = F31A716A1FE910F7001F1E76 /* AutoImportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F31A71741FE910F8001F1E76 /* AutoImportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31A71841FE910F8001F1E76 /* Build configuration list for PBXNativeTarget "AutoImportUITests" */;
+			buildPhases = (
+				F31A71711FE910F8001F1E76 /* Sources */,
+				F31A71721FE910F8001F1E76 /* Frameworks */,
+				F31A71731FE910F8001F1E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31A71771FE910F8001F1E76 /* PBXTargetDependency */,
+			);
+			name = AutoImportUITests;
+			productName = AutoImportUITests;
+			productReference = F31A71751FE910F8001F1E76 /* AutoImportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31A714C1FE910F7001F1E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hhfa;
+				TargetAttributes = {
+					F31A71531FE910F7001F1E76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F31A71691FE910F7001F1E76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F31A71531FE910F7001F1E76;
+					};
+					F31A71741FE910F8001F1E76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F31A71531FE910F7001F1E76;
+					};
+				};
+			};
+			buildConfigurationList = F31A714F1FE910F7001F1E76 /* Build configuration list for PBXProject "AutoImport" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31A714B1FE910F7001F1E76;
+			productRefGroup = F31A71551FE910F7001F1E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31A71531FE910F7001F1E76 /* AutoImport */,
+				F31A71691FE910F7001F1E76 /* AutoImportTests */,
+				F31A71741FE910F8001F1E76 /* AutoImportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31A71521FE910F7001F1E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31A715E1FE910F7001F1E76 /* Assets.xcassets in Resources */,
+				F31A71611FE910F7001F1E76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A71681FE910F7001F1E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A71731FE910F8001F1E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31A71501FE910F7001F1E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31A715C1FE910F7001F1E76 /* ViewController.m in Sources */,
+				F31A71641FE910F7001F1E76 /* main.m in Sources */,
+				F31A71591FE910F7001F1E76 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A71661FE910F7001F1E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31A716F1FE910F7001F1E76 /* AutoImportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A71711FE910F8001F1E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31A717A1FE910F8001F1E76 /* AutoImportUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F31A716C1FE910F7001F1E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31A71531FE910F7001F1E76 /* AutoImport */;
+			targetProxy = F31A716B1FE910F7001F1E76 /* PBXContainerItemProxy */;
+		};
+		F31A71771FE910F8001F1E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31A71531FE910F7001F1E76 /* AutoImport */;
+			targetProxy = F31A71761FE910F8001F1E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F31A715F1FE910F7001F1E76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31A71601FE910F7001F1E76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F31A717C1FE910F8001F1E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F31A717D1FE910F8001F1E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F31A717F1FE910F8001F1E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AutoImport/AutoImport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 33Z285F3D8;
+				INFOPLIST_FILE = AutoImport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhfa.AutoImport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F31A71801FE910F8001F1E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AutoImport/AutoImport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 33Z285F3D8;
+				INFOPLIST_FILE = AutoImport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhfa.AutoImport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F31A71821FE910F8001F1E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 33Z285F3D8;
+				INFOPLIST_FILE = AutoImportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhfa.AutoImportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoImport.app/Contents/MacOS/AutoImport";
+			};
+			name = Debug;
+		};
+		F31A71831FE910F8001F1E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 33Z285F3D8;
+				INFOPLIST_FILE = AutoImportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhfa.AutoImportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoImport.app/Contents/MacOS/AutoImport";
+			};
+			name = Release;
+		};
+		F31A71851FE910F8001F1E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 33Z285F3D8;
+				INFOPLIST_FILE = AutoImportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhfa.AutoImportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoImport;
+			};
+			name = Debug;
+		};
+		F31A71861FE910F8001F1E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 33Z285F3D8;
+				INFOPLIST_FILE = AutoImportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhfa.AutoImportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoImport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31A714F1FE910F7001F1E76 /* Build configuration list for PBXProject "AutoImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31A717C1FE910F8001F1E76 /* Debug */,
+				F31A717D1FE910F8001F1E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31A717E1FE910F8001F1E76 /* Build configuration list for PBXNativeTarget "AutoImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31A717F1FE910F8001F1E76 /* Debug */,
+				F31A71801FE910F8001F1E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31A71811FE910F8001F1E76 /* Build configuration list for PBXNativeTarget "AutoImportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31A71821FE910F8001F1E76 /* Debug */,
+				F31A71831FE910F8001F1E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31A71841FE910F8001F1E76 /* Build configuration list for PBXNativeTarget "AutoImportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31A71851FE910F8001F1E76 /* Debug */,
+				F31A71861FE910F8001F1E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31A714C1FE910F7001F1E76 /* Project object */;
+}

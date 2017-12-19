@@ -14,6 +14,12 @@
 		F31A71641FE910F7001F1E76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A71631FE910F7001F1E76 /* main.m */; };
 		F31A716F1FE910F7001F1E76 /* AutoImportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A716E1FE910F7001F1E76 /* AutoImportTests.m */; };
 		F31A717A1FE910F8001F1E76 /* AutoImportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A71791FE910F8001F1E76 /* AutoImportUITests.m */; };
+		F31A718E1FE9114C001F1E76 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31A718D1FE9114C001F1E76 /* Cocoa.framework */; };
+		F31A71921FE9114C001F1E76 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A71911FE9114C001F1E76 /* SourceEditorExtension.m */; };
+		F31A71951FE9114C001F1E76 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A71941FE9114C001F1E76 /* SourceEditorCommand.m */; };
+		F31A719A1FE9114C001F1E76 /* AutoImportHeader.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F31A718B1FE9114C001F1E76 /* AutoImportHeader.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F31A71A41FE9117D001F1E76 /* xTextModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A719F1FE9117D001F1E76 /* xTextModifier.m */; };
+		F31A71A51FE9117D001F1E76 /* xTextMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A71A01FE9117D001F1E76 /* xTextMatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,28 @@
 			remoteGlobalIDString = F31A71531FE910F7001F1E76;
 			remoteInfo = AutoImport;
 		};
+		F31A71981FE9114C001F1E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31A714C1FE910F7001F1E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31A718A1FE9114C001F1E76;
+			remoteInfo = AutoImportHeader;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F31A719E1FE9114C001F1E76 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F31A719A1FE9114C001F1E76 /* AutoImportHeader.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F31A71541FE910F7001F1E76 /* AutoImport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoImport.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +77,19 @@
 		F31A71751FE910F8001F1E76 /* AutoImportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoImportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31A71791FE910F8001F1E76 /* AutoImportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoImportUITests.m; sourceTree = "<group>"; };
 		F31A717B1FE910F8001F1E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31A718B1FE9114C001F1E76 /* AutoImportHeader.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AutoImportHeader.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31A718D1FE9114C001F1E76 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F31A71901FE9114C001F1E76 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		F31A71911FE9114C001F1E76 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		F31A71931FE9114C001F1E76 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		F31A71941FE9114C001F1E76 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		F31A71961FE9114C001F1E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31A71971FE9114C001F1E76 /* AutoImportHeader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoImportHeader.entitlements; sourceTree = "<group>"; };
+		F31A719F1FE9117D001F1E76 /* xTextModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xTextModifier.m; sourceTree = "<group>"; };
+		F31A71A01FE9117D001F1E76 /* xTextMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xTextMatcher.m; sourceTree = "<group>"; };
+		F31A71A11FE9117D001F1E76 /* xTextMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xTextMatcher.h; sourceTree = "<group>"; };
+		F31A71A21FE9117D001F1E76 /* xTextModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xTextModifier.h; sourceTree = "<group>"; };
+		F31A71A31FE9117D001F1E76 /* SortHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +114,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F31A71881FE9114C001F1E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31A718E1FE9114C001F1E76 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +131,8 @@
 				F31A71561FE910F7001F1E76 /* AutoImport */,
 				F31A716D1FE910F7001F1E76 /* AutoImportTests */,
 				F31A71781FE910F8001F1E76 /* AutoImportUITests */,
+				F31A718F1FE9114C001F1E76 /* AutoImportHeader */,
+				F31A718C1FE9114C001F1E76 /* Frameworks */,
 				F31A71551FE910F7001F1E76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +143,7 @@
 				F31A71541FE910F7001F1E76 /* AutoImport.app */,
 				F31A716A1FE910F7001F1E76 /* AutoImportTests.xctest */,
 				F31A71751FE910F8001F1E76 /* AutoImportUITests.xctest */,
+				F31A718B1FE9114C001F1E76 /* AutoImportHeader.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +182,32 @@
 			path = AutoImportUITests;
 			sourceTree = "<group>";
 		};
+		F31A718C1FE9114C001F1E76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31A718D1FE9114C001F1E76 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F31A718F1FE9114C001F1E76 /* AutoImportHeader */ = {
+			isa = PBXGroup;
+			children = (
+				F31A71A31FE9117D001F1E76 /* SortHeader.h */,
+				F31A71A11FE9117D001F1E76 /* xTextMatcher.h */,
+				F31A71A01FE9117D001F1E76 /* xTextMatcher.m */,
+				F31A71A21FE9117D001F1E76 /* xTextModifier.h */,
+				F31A719F1FE9117D001F1E76 /* xTextModifier.m */,
+				F31A71901FE9114C001F1E76 /* SourceEditorExtension.h */,
+				F31A71911FE9114C001F1E76 /* SourceEditorExtension.m */,
+				F31A71931FE9114C001F1E76 /* SourceEditorCommand.h */,
+				F31A71941FE9114C001F1E76 /* SourceEditorCommand.m */,
+				F31A71961FE9114C001F1E76 /* Info.plist */,
+				F31A71971FE9114C001F1E76 /* AutoImportHeader.entitlements */,
+			);
+			path = AutoImportHeader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +218,12 @@
 				F31A71501FE910F7001F1E76 /* Sources */,
 				F31A71511FE910F7001F1E76 /* Frameworks */,
 				F31A71521FE910F7001F1E76 /* Resources */,
+				F31A719E1FE9114C001F1E76 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F31A71991FE9114C001F1E76 /* PBXTargetDependency */,
 			);
 			name = AutoImport;
 			productName = AutoImport;
@@ -187,6 +266,23 @@
 			productReference = F31A71751FE910F8001F1E76 /* AutoImportUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F31A718A1FE9114C001F1E76 /* AutoImportHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31A719B1FE9114C001F1E76 /* Build configuration list for PBXNativeTarget "AutoImportHeader" */;
+			buildPhases = (
+				F31A71871FE9114C001F1E76 /* Sources */,
+				F31A71881FE9114C001F1E76 /* Frameworks */,
+				F31A71891FE9114C001F1E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoImportHeader;
+			productName = AutoImportHeader;
+			productReference = F31A718B1FE9114C001F1E76 /* AutoImportHeader.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +306,10 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = F31A71531FE910F7001F1E76;
 					};
+					F31A718A1FE9114C001F1E76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = F31A714F1FE910F7001F1E76 /* Build configuration list for PBXProject "AutoImport" */;
@@ -228,6 +328,7 @@
 				F31A71531FE910F7001F1E76 /* AutoImport */,
 				F31A71691FE910F7001F1E76 /* AutoImportTests */,
 				F31A71741FE910F8001F1E76 /* AutoImportUITests */,
+				F31A718A1FE9114C001F1E76 /* AutoImportHeader */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +351,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F31A71731FE910F8001F1E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A71891FE9114C001F1E76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,6 +393,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F31A71871FE9114C001F1E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31A71A41FE9117D001F1E76 /* xTextModifier.m in Sources */,
+				F31A71921FE9114C001F1E76 /* SourceEditorExtension.m in Sources */,
+				F31A71A51FE9117D001F1E76 /* xTextMatcher.m in Sources */,
+				F31A71951FE9114C001F1E76 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -297,6 +416,11 @@
 			isa = PBXTargetDependency;
 			target = F31A71531FE910F7001F1E76 /* AutoImport */;
 			targetProxy = F31A71761FE910F8001F1E76 /* PBXContainerItemProxy */;
+		};
+		F31A71991FE9114C001F1E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31A718A1FE9114C001F1E76 /* AutoImportHeader */;
+			targetProxy = F31A71981FE9114C001F1E76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -503,6 +627,36 @@
 			};
 			name = Release;
 		};
+		F31A719C1FE9114C001F1E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AutoImportHeader/AutoImportHeader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 33Z285F3D8;
+				INFOPLIST_FILE = AutoImportHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhfa.AutoImport.AutoImportHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F31A719D1FE9114C001F1E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AutoImportHeader/AutoImportHeader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 33Z285F3D8;
+				INFOPLIST_FILE = AutoImportHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhfa.AutoImport.AutoImportHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -538,6 +692,15 @@
 			buildConfigurations = (
 				F31A71851FE910F8001F1E76 /* Debug */,
 				F31A71861FE910F8001F1E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31A719B1FE9114C001F1E76 /* Build configuration list for PBXNativeTarget "AutoImportHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31A719C1FE9114C001F1E76 /* Debug */,
+				F31A719D1FE9114C001F1E76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

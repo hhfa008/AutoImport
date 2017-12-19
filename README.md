@@ -1,14 +1,14 @@
 # AutoImport
 AutoImport for XCode
-## Usage
+## AutoImport by Menu
 
 ![Usage](AutoImport1.gif)
 
-## Usage
+## AutoImport Key Binding
 
 ![Usage](AutoImport2.png)
 
-## Usage
+## AutoImport by Quick Key 
 
 ![Usage](AutoImport3.gif)
 ## Credits

@@ -2,7 +2,7 @@
 AutoImport for XCode
 ## AutoImport by Menu
 
-![Usage](AutoImport1.gif)
+![Usage](AutoImport3.gif)
 
 ## AutoImport Key Binding
 
@@ -10,7 +10,7 @@ AutoImport for XCode
 
 ## AutoImport by Quick Key 
 
-![Usage](AutoImport3.gif)
+![Usage](AutoImport1.gif)
 ## Credits
 
 I am using some helper functions to deal with the filtering out source text from[CleanHeaders-Xcode](https://github.com/insanoid/CleanHeaders-Xcode) and [xTextHandler-objc](https://github.com/cyanzhong/xTextHandler-objc), thanks for the awesome class.

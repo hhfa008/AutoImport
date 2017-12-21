@@ -1,5 +1,7 @@
 # AutoImport
-AutoImport for XCode
+AutoImport, handy Xcode plugin to import heaer file automatically.
+# Support
+AutoImport is a Xcode Source Editor Extension, supports Xcode 8 and above.
 ## AutoImport by Menu
 
 ![Usage](AutoImport3.gif)
